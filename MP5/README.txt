@@ -1,14 +1,28 @@
-Name: Joshua Fisher
-Student ID: 2421470
-Class Section: CPSC 350-01
+MP5: Lazy Binary Search Tree and Database
 
-References 
-https://stackoverflow.com/questions/23142732/overloading-comparison-operators-for-different-types-in-c
-https://learn.zybooks.com/zybook/CHAPMANCPSC350GermanSpring2024/chapter/6/section/4
-https://www.geeksforgeeks.org/stdmax-in-cpp/
-https://stackoverflow.com/questions/13715131/why-does-cin-clear-fix-an-infinite-loop-caused-by-bad-input-to-cin
-Also used old projects format from my C++
-Also used my BST template we made from class and modified it to follow LazyBST
+Description: Implements a Lazy Binary Search Tree (LazyBST) and a database for managing student and faculty records.
+
+Key Features:
+
+LazyBST for efficient data management.
+
+Classes for Faculty, Student, and DataInterface.
+
+Focus on modular and object-oriented design.
+
+Setup Instructions:
+
+Clone the repository.
+
+Compile the program using main.cpp.
+
+Run the application to manage database operations.
+
+Usage:
+
+Perform CRUD operations on student and faculty records.
+
+Utilize the LazyBST for efficient searching and modification.
 
 Compiling code commands: 
 g++ *.cpp 
