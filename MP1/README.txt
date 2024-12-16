@@ -1,11 +1,23 @@
-Name: Joshua Fisher
-Student ID: 2421470
-Class Section: CPSC 350-01
+MP1: File Processor and Translator
 
-References used:
-https://www.geeksforgeeks.org/how-to-convert-a-single-character-to-string-in-cpp/
-Also used old projects format from my C++ to remember how to do the fileProcessor
-Along with office hours for help on my translator.cpp TranslateSentence method
+Description: This project involves processing files and performing translations using modular components like a FileProcessor, Model, and Translator. It demonstrates skills in file handling, object-oriented programming, and algorithmic design.
 
-Compiling code commands: 
-g++ *.cpp 
+Key Features:
+
+File reading and writing operations.
+
+Translating data using predefined models.
+
+Modular and reusable design with separate classes for different functionalities.
+
+Setup Instructions:
+
+Clone the repository.
+
+Compile the program using the provided main.cpp.
+
+Run the application and provide the input file (original.txt).
+
+Usage:
+
+The application reads from original.txt and produces a translation output in translation.html.
