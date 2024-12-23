@@ -1,28 +1,92 @@
-MP5: Lazy Binary Search Tree and Database
+MP5: Lazy Binary Search Tree and Database Management
 
-Description: Implements a Lazy Binary Search Tree (LazyBST) and a database for managing student and faculty records.
+Overview
 
-Key Features:
+This project implements a Lazy Binary Search Tree (LazyBST) and a database management system for organizing and managing student and faculty records. It demonstrates the use of advanced data structures and object-oriented programming principles in C++.
 
-LazyBST for efficient data management.
+Features
 
-Classes for Faculty, Student, and DataInterface.
+Lazy Binary Search Tree (LazyBST):
 
-Focus on modular and object-oriented design.
+Optimized insertion, lazy deletion, and searching.
 
-Setup Instructions:
+Efficient for managing dynamic datasets.
 
-Clone the repository.
+Database Functionality:
 
-Compile the program using main.cpp.
+Add, delete, and update student and faculty records.
 
-Run the application to manage database operations.
+Search records by unique identifiers.
 
-Usage:
+Modular Design:
 
-Perform CRUD operations on student and faculty records.
+Key components: Student, Faculty, DataInterface, and LazyBST.
 
-Utilize the LazyBST for efficient searching and modification.
+Clean and reusable object-oriented structure.
 
-Compiling code commands: 
-g++ *.cpp 
+Setup
+
+Prerequisites
+
+Compiler: A C++ compiler (e.g., g++) installed on your system.
+
+Steps
+
+Clone this repository:
+
+git clone <repository-url>
+cd <repository-folder>
+
+Compile the program:
+
+g++ *.cpp -o lazybst_program
+
+Run the program:
+
+./lazybst_program
+
+Usage
+
+Commands Overview:
+
+Add, delete, update, and search for records.
+
+Use the command-line interface to input data and retrieve results.
+
+Example Commands
+
+Adding a Student Record
+
+Enter command: ADD_STUDENT
+Enter details: John Doe, ID: 12345, Advisor: Dr. Smith
+Record added successfully!
+
+Searching for a Record
+
+Enter command: SEARCH
+Enter ID: 12345
+Result: John Doe, Faculty Advisor: Dr. Smith
+
+Project Structure
+
+|-- src/
+|   |-- LazyBST.h        # Header file for Lazy Binary Search Tree
+|   |-- LazyBST.cpp      # Implementation of Lazy Binary Search Tree
+|   |-- Student.h        # Header file for Student class
+|   |-- Student.cpp      # Implementation of Student class
+|   |-- Faculty.h        # Header file for Faculty class
+|   |-- Faculty.cpp      # Implementation of Faculty class
+|   |-- DataInterface.h  # Header file for interface between BST and database
+|   |-- DataInterface.cpp# Implementation of the interface
+|   |-- main.cpp         # Main driver program
+|-- README.md
+
+Technologies Used
+
+Programming Language: C++
+
+Core Concepts:
+
+Lazy Binary Search Tree
+
+Object-Oriented Programming
