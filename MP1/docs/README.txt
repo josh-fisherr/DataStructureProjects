@@ -1,23 +1,55 @@
-MP1: File Processor and Translator
+File Processor and Rövarspråket Translator
 
-Description: This project involves processing files and performing translations using modular components like a FileProcessor, Model, and Translator. It demonstrates skills in file handling, object-oriented programming, and algorithmic design.
+Overview
 
-Key Features:
+This project translates English text into Rövarspråket (robber's language), a playful linguistic cipher. It demonstrates file processing, modular programming, and algorithm design using C++.
 
-File reading and writing operations.
+Key Features
 
-Translating data using predefined models.
+File Processing: Reads from an input file and writes translated text to an output HTML file.
 
-Modular and reusable design with separate classes for different functionalities.
+Translation Logic: Converts consonants to Rövarspråket while retaining vowels and punctuation.
 
-Setup Instructions:
+Modular Design: Separates functionalities into FileProcessor, Model, and Translator classes for clarity and reusability.
 
-Clone the repository.
+Setup Instructions
 
-Compile the program using the provided main.cpp.
+Clone the Repository:
 
-Run the application and provide the input file (original.txt).
+git clone <repository-url>
+cd FileProcessor
 
-Usage:
+Compile the Program:
 
-The application reads from original.txt and produces a translation output in translation.html.
+g++ src/*.cpp -o file_processor
+
+Run the Program:
+
+./file_processor
+
+The program reads from input/original.txt and generates output/translation.html.
+
+Example
+
+Input (original.txt):
+
+This is a test of robber language's capability!
+
+Output (translation.html):
+
+<b>This is a test of robber language's capability!</b><br>
+<i>ToThohisos o isos o a o totesostot o ofof o rorobobboberor o lolanongoguagoge'sos o cocapopabobilolitotyoy!</i><br><br>
+
+Technologies Used
+
+Language: C++
+
+Core Concepts: File I/O, Object-Oriented Programming, Algorithm Design
+
+Future Enhancements
+
+Add support for other linguistic ciphers.
+
+Build a GUI for real-time text translation.
+
+Extend functionality for batch file processing.
